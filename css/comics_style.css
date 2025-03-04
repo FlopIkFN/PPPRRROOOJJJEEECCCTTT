@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: wheat;
+}
+.comics{
+    width: 680px;
+    margin: 50px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+table, tr, td { 
+border: 1px solid black; 
+text-align: center;
+vertical-align: middle; 
+border-collapse: collapse; 
+}
+h6{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 25px;
+}
+
+#goBack
+{
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	text-align: center;
+    font-weight: bold;
+    font-family: Tahoma;
+	position: relative;
+	top: 10px;
+	margin: 300px;
+    margin-top: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(116, 116, 116, 0.5);
+	font-size: 18pt;
+	padding: 15px;
+
+}
+#goBack a
+{
+	text-decoration: none;
+	color:black;
+}
+#goBack:hover
+{
+	background-color: lightblue;
+}
